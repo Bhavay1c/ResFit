@@ -164,11 +164,13 @@ margin-bottom: 20px;
 .main-tech-component {
     text-align: center;
     margin: 20px 0;
+
 }
 
 .main-tech-component img {
     width: 70%;
     height: auto;
+    margin-bottom: 15px;
     
 }
 
@@ -183,3 +185,4 @@ margin-bottom: 20px;
     margin-bottom: 24px;
     margin-left: 10px;
 }
+
