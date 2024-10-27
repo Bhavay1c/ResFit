@@ -133,3 +133,53 @@ body {
     font-size: 1.5rem;
     color: var(--headingsColor);
 }
+
+#technicalDetails h2{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+#technicalDetails p{
+    /* text-align: center; */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.tech-component-esp32-motor img {
+
+    float: center;
+    margin-left: 35px;
+    width: 45%;
+    height: auto;
+}
+.tech-component-esp32-motor h2{
+color: var(--misc);
+
+text-align: center;
+font-size: 32px;
+margin-bottom: 20px;
+}
+
+.main-tech-component {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-tech-component img {
+    width: 70%;
+    height: auto;
+    
+}
+
+.main-tech-component h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--misc)
+}
+.main-tech-component li,p{
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 24px;
+    margin-left: 10px;
+}
