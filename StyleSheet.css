@@ -1,0 +1,135 @@
+:root {
+    --headingsColor: #A1D6B2;
+    --paragraphExplanation: #F1F3C2;
+    --misc: #E8B86D; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.6;
+    background-color: #000000;
+}
+
+#resifitSummary {
+    color: var(--headingsColor);
+}
+
+/* Styling for HomePageImage */
+#HomePageImage {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#HomePageImage img {
+    width: 100%;
+    height: auto;
+    /* filter: grayscale(100%); */
+    margin-bottom: 5ch;
+}
+
+/* Overlay text styling */
+/* .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-shadow: 7px 7px 0 #000,   
+                         12px 12px 0 #98FF98; 
+            letter-spacing: 7px;
+    color: #88C273;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+
+} */
+
+/* .overlay-text h1 {
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    font-size: 2.5rem;
+} */
+
+#Content {
+    color: var(--paragraphExplanation);
+}
+
+#Content h1 {   
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    color: var(--headingsColor);
+}
+
+.textImage img {
+    float: left;
+    width: 45em;
+    height: 35em; 
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.textImage p{
+    margin-bottom: 100x;
+    font-size: 20px;
+
+}
+.textImage2 p{
+    margin-bottom: 100x;
+    font-size: 20px;
+
+}
+.textImage2 img {
+    float: right;
+    width: 45em;
+    height: 35em; 
+    margin-left: 15px;
+
+}
+
+
+
+
+/* Styling for the navigation images section */
+#navigationImages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#navigationImages a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--headingsColor);
+}
+
+#navigationImages img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#navigationImages img:hover {
+    transform: scale(1.1);
+}
+
+#navigationImages h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: var(--headingsColor);
+}
